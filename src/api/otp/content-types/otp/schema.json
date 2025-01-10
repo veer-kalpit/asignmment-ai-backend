@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "profiles",
+  "collectionName": "otps",
   "info": {
-    "singularName": "profile",
-    "pluralName": "profiles",
-    "displayName": "Profile",
+    "singularName": "otp",
+    "pluralName": "otps",
+    "displayName": "otp",
     "description": ""
   },
   "options": {
@@ -13,12 +13,6 @@
   "pluginOptions": {},
   "attributes": {
     "email": {
-      "type": "string"
-    },
-    "username": {
-      "type": "string"
-    },
-    "password": {
       "type": "string"
     },
     "otp": {
